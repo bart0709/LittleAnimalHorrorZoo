@@ -34,9 +34,6 @@ public abstract class Screen {
     {
         try {
             Thread.sleep(milliseconds);
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        } catch (Exception e) {}
     }
 }
